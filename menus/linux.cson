@@ -1,23 +1,23 @@
 'menu': [
   {
-    label: '&Filee'
+    label: '&Archivo'
     submenu: [
-      { label: 'New &Window', command: 'application:new-window' }
-      { label: '&New File', command: 'application:new-file' }
-      { label: '&Open File…', command: 'application:open-file' }
-      { label: 'Open Folder…', command: 'application:open-folder' }
-      { label: 'Add Project Folder…', command: 'application:add-project-folder' }
+      { label: 'Nueva &Ventana', command: 'application:new-window' }
+      { label: '&Nuevo Archivo', command: 'application:new-file' }
+      { label: '&Abrir Archivo…', command: 'application:open-file' }
+      { label: 'Abrir Carpeta…', command: 'application:open-folder' }
+      { label: 'Agregar Carpeta De Poroyecto…', command: 'application:add-project-folder' }
       {
-        label: 'Reopen Project',
+        label: 'Reabrir Poroyecto',
         submenu: [
-          { label: 'Clear Project History', command: 'application:clear-project-history' }
+          { label: 'Limpiar Historial De Poroyecto', command: 'application:clear-project-history' }
           { type: 'separator' }
         ]
       }
-      { label: 'Reopen Last &Item', command: 'pane:reopen-closed-item' }
+      { label: 'Reabrir Ultimo &Artículo', command: 'pane:reopen-closed-item' }
       { type: 'separator' }
-      { label: '&Save', command: 'core:save' }
-      { label: 'Save &As…', command: 'core:save-as' }
+      { label: '&Guardar', command: 'core:save' }
+      { label: 'Guardar &Como…', command: 'core:save-as' }
       { label: 'Save A&ll', command: 'window:save-all' }
       { type: 'separator' }
       { label: '&Close Tab', command: 'core:close' }
