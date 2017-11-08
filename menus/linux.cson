@@ -18,25 +18,25 @@
       { type: 'separator' }
       { label: '&Guardar', command: 'core:save' }
       { label: 'Guardar &Como…', command: 'core:save-as' }
-      { label: 'Save A&ll', command: 'window:save-all' }
+      { label: 'Guardar T&odo', command: 'window:save-all' }
       { type: 'separator' }
-      { label: '&Close Tab', command: 'core:close' }
-      { label: 'Close &Pane', command: 'pane:close' }
-      { label: 'Clos&e Window', command: 'window:close' }
+      { label: '&Cerrar pestaña', command: 'core:close' }
+      { label: 'Cerrar el &panel', command: 'pane:close' }
+      { label: 'Cerrar Ventana', command: 'window:close' }
       { type: 'separator' }
-      { label: 'Quit', command: 'application:quit' }
+      { label: 'Salir', command: 'application:quit' }
     ]
   }
 
   {
-    label: '&Edit'
+    label: '&Editar'
     submenu: [
-      { label: '&Undo', command: 'core:undo' }
-      { label: '&Redo', command: 'core:redo' }
+      { label: '&Deshacer', command: 'core:undo' }
+      { label: '&Rehacer', command: 'core:redo' }
       { type: 'separator' }
-      { label: '&Cut', command: 'core:cut' }
-      { label: 'C&opy', command: 'core:copy' }
-      { label: 'Copy Pat&h', command: 'editor:copy-path' }
+      { label: '&Cortar', command: 'core:cut' }
+      { label: 'C&opiar', command: 'core:copy' }
+      { label: 'Copiar Ruta', command: 'editor:copy-path' }
       { label: '&Paste', command: 'core:paste' }
       { label: 'Paste Without Reformatting', command: 'editor:paste-without-reformatting' }
       { label: 'Select &All', command: 'core:select-all' }
