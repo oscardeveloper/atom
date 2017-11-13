@@ -2,108 +2,108 @@
   {
     label: '&File'
     submenu: [
-      { label: 'New &Window', command: 'application:new-window' }
-      { label: '&New File', command: 'application:new-file' }
-      { label: '&Open File…', command: 'application:open-file' }
-      { label: 'Open Folder…', command: 'application:open-folder' }
-      { label: 'Add Project Folder…', command: 'application:add-project-folder' }
+      { label: 'Nueva &Ventana', command: 'application:new-window' }
+      { label: '&Nuevo Archivo', command: 'application:new-file' }
+      { label: '&Abrir Archivo…', command: 'application:open-file' }
+      { label: 'Abrir Carpeta…', command: 'application:open-folder' }
+      { label: 'Agregar Carpeta De Poroyecto…', command: 'application:add-project-folder' }
       {
-        label: 'Reopen Project',
+        label: 'Reabrir Poroyecto',
         submenu: [
-          { label: 'Clear Project History', command: 'application:clear-project-history' }
+          { label: 'Limpiar Historial De Poroyecto', command: 'application:clear-project-history' }
           { type: 'separator' }
         ]
       }
-      { label: 'Reopen Last &Item', command: 'pane:reopen-closed-item' }
+      { label: 'Reabrir Ultimo &Artículo', command: 'pane:reopen-closed-item' }
       { type: 'separator' }
-      { label: '&Save', command: 'core:save' }
-      { label: 'Save &As…', command: 'core:save-as' }
-      { label: 'Save A&ll', command: 'window:save-all' }
+      { label: '&Guardar', command: 'core:save' }
+      { label: 'Guardar &Como…', command: 'core:save-as' }
+      { label: 'Guardar T&odo', command: 'window:save-all' }
       { type: 'separator' }
-      { label: '&Close Tab', command: 'core:close' }
-      { label: 'Close &Pane', command: 'pane:close' }
-      { label: 'Clos&e Window', command: 'window:close' }
+      { label: '&Cerrar pestaña', command: 'core:close' }
+      { label: 'Cerrar el &panel', command: 'pane:close' }
+      { label: 'Cerrar Ventana', command: 'window:close' }
       { type: 'separator' }
-      { label: 'Quit', command: 'application:quit' }
+      { label: 'Salir', command: 'application:quit' }
     ]
   }
 
   {
     label: '&Edit'
     submenu: [
-      { label: '&Undo', command: 'core:undo' }
-      { label: '&Redo', command: 'core:redo' }
+      { label: '&Deshacer', command: 'core:undo' }
+      { label: '&Rehacer', command: 'core:redo' }
       { type: 'separator' }
-      { label: '&Cut', command: 'core:cut' }
-      { label: 'C&opy', command: 'core:copy' }
-      { label: 'Copy Pat&h', command: 'editor:copy-path' }
-      { label: '&Paste', command: 'core:paste' }
-      { label: 'Paste Without Reformatting', command: 'editor:paste-without-reformatting' }
-      { label: 'Select &All', command: 'core:select-all' }
+      { label: '&Cortar', command: 'core:cut' }
+      { label: 'C&opiar', command: 'core:copy' }
+      { label: 'Copiar Ruta', command: 'editor:copy-path' }
+      { label: '&Pegar', command: 'core:paste' }
+      { label: 'Pegar Sin Reformateado', command: 'editor:paste-without-reformatting' }
+      { label: 'Seleccionar todo', command: 'core:select-all' }
       { type: 'separator' }
-      { label: '&Toggle Comments', command: 'editor:toggle-line-comments' }
+      { label: '&Alternar comentarios', command: 'editor:toggle-line-comments' }
       {
-        label: 'Lines',
+        label: 'Lineas',
         submenu: [
-          { label: '&Indent', command: 'editor:indent-selected-rows' }
+          { label: '&Sangria', command: 'editor:indent-selected-rows' }
           { label: '&Outdent', command: 'editor:outdent-selected-rows' }
-          { label: '&Auto Indent', command: 'editor:auto-indent' }
+          { label: '&Sangria automática', command: 'editor:auto-indent' }
           { type: 'separator' }
-          { label: 'Move Line &Up', command: 'editor:move-line-up' }
-          { label: 'Move Line &Down', command: 'editor:move-line-down' }
-          { label: 'Du&plicate Lines', command: 'editor:duplicate-lines' }
-          { label: 'D&elete Line', command: 'editor:delete-line' }
-          { label: '&Join Lines', command: 'editor:join-lines' }
+          { label: 'Mover Linea Hacia Arriba', command: 'editor:move-line-up' }
+          { label: 'Mover línea hacia abajo', command: 'editor:move-line-down' }
+          { label: 'Duplicar Linea', command: 'editor:duplicate-lines' }
+          { label: 'Eliminar Linea', command: 'editor:delete-line' }
+          { label: '&Unir Lineas', command: 'editor:join-lines' }
         ]
       }
       {
         label: 'Columns',
         submenu: [
-          { label: 'Move Selection &Left', command: 'editor:move-selection-left' }
-          { label: 'Move Selection &Right', command: 'editor:move-selection-right' }
+          { label: 'Mover Selección A La Izquierda', command: 'editor:move-selection-left' }
+          { label: 'Mover Selección A La Derecha', command: 'editor:move-selection-right' }
         ]
       }
       {
-        label: 'Text',
+        label: 'Texto',
         submenu: [
-          { label: '&Upper Case', command: 'editor:upper-case' }
-          { label: '&Lower Case', command: 'editor:lower-case' }
+          { label: '&Mayúsculas', command: 'editor:upper-case' }
+          { label: '&Minúscula', command: 'editor:lower-case' }
           { type: 'separator' }
-          { label: 'Delete to End of &Word', command: 'editor:delete-to-end-of-word' }
+          { label: 'Borrar hasta el final de la Palabra', command: 'editor:delete-to-end-of-word' }
           { label: 'Delete to Previous Word Boundary', command: 'editor:delete-to-previous-word-boundary' }
           { label: 'Delete to Next Word Boundary', command: 'editor:delete-to-next-word-boundary' }
-          { label: '&Delete Line', command: 'editor:delete-line' }
+          { label: '&Eliminar Linea', command: 'editor:delete-line' }
           { type: 'separator' }
-          { label: '&Transpose', command: 'editor:transpose' }
+          { label: '&Transponer', command: 'editor:transpose' }
         ]
       }
       {
-        label: 'Folding',
+        label: 'Plegable',
         submenu: [
-          { label: '&Fold', command: 'editor:fold-current-row' }
-          { label: '&Unfold', command: 'editor:unfold-current-row' }
-          { label: 'Fol&d All', command: 'editor:fold-all' }
-          { label: 'Unfold &All', command: 'editor:unfold-all' }
+          { label: '&Plegar', command: 'editor:fold-current-row' }
+          { label: '&Desplegar', command: 'editor:unfold-current-row' }
+          { label: 'Pligar Todo', command: 'editor:fold-all' }
+          { label: 'Desplegar Todo', command: 'editor:unfold-all' }
           { type: 'separator' }
-          { label: 'Fold Level 1', command: 'editor:fold-at-indent-level-1' }
-          { label: 'Fold Level 2', command: 'editor:fold-at-indent-level-2' }
-          { label: 'Fold Level 3', command: 'editor:fold-at-indent-level-3' }
-          { label: 'Fold Level 4', command: 'editor:fold-at-indent-level-4' }
-          { label: 'Fold Level 5', command: 'editor:fold-at-indent-level-5' }
-          { label: 'Fold Level 6', command: 'editor:fold-at-indent-level-6' }
-          { label: 'Fold Level 7', command: 'editor:fold-at-indent-level-7' }
-          { label: 'Fold Level 8', command: 'editor:fold-at-indent-level-8' }
-          { label: 'Fold Level 9', command: 'editor:fold-at-indent-level-9' }
+          { label: 'Nivel de plegado 1', command: 'editor:fold-at-indent-level-1' }
+          { label: 'Nivel de plegado 2', command: 'editor:fold-at-indent-level-2' }
+          { label: 'Nivel de plegado 3', command: 'editor:fold-at-indent-level-3' }
+          { label: 'Nivel de plegado 4', command: 'editor:fold-at-indent-level-4' }
+          { label: 'Nivel de plegado 5', command: 'editor:fold-at-indent-level-5' }
+          { label: 'Nivel de plegado 6', command: 'editor:fold-at-indent-level-6' }
+          { label: 'Nivel de plegado 7', command: 'editor:fold-at-indent-level-7' }
+          { label: 'Nivel de plegado 8', command: 'editor:fold-at-indent-level-8' }
+          { label: 'Nivel de plegado 9', command: 'editor:fold-at-indent-level-9' }
         ]
       }
       { type: 'separator' }
-      { label: '&Preferences', command: 'application:show-settings' }
+      { label: '&Preferencias', command: 'application:show-settings' }
       { type: 'separator' }
-      { label: 'Config…', command: 'application:open-your-config' }
+      { label: 'Configuracion…', command: 'application:open-your-config' }
       { label: 'Init Script…', command: 'application:open-your-init-script' }
-      { label: 'Keymap…', command: 'application:open-your-keymap' }
-      { label: 'Snippets…', command: 'application:open-your-snippets' }
-      { label: 'Stylesheet…', command: 'application:open-your-stylesheet' }
+      { label: 'Mapa de Teclado…', command: 'application:open-your-keymap' }
+      { label: 'Fragmentos…', command: 'application:open-your-snippets' }
+      { label: 'Hoja de Estilo…', command: 'application:open-your-stylesheet' }
       { type: 'separator' }
     ]
   }
@@ -111,64 +111,64 @@
   {
     label: '&View'
     submenu: [
-      { label: 'Toggle &Full Screen', command: 'window:toggle-full-screen' }
+      { label: 'Pantalla Completa', command: 'window:toggle-full-screen' }
       { label: 'Toggle Menu Bar', command: 'window:toggle-menu-bar' }
       {
-        label: 'Panes'
+        label: 'Paneles'
         submenu: [
-          { label: 'Split Up', command: 'pane:split-up-and-copy-active-item' }
-          { label: 'Split Down', command: 'pane:split-down-and-copy-active-item' }
-          { label: 'Split Left', command: 'pane:split-left-and-copy-active-item' }
-          { label: 'Split Right', command: 'pane:split-right-and-copy-active-item' }
+          { label: 'Dividir Panel', command: 'pane:split-up-and-copy-active-item' }
+          { label: 'Dividir Abajo', command: 'pane:split-down-and-copy-active-item' }
+          { label: 'Dividir a la Izquierda', command: 'pane:split-left-and-copy-active-item' }
+          { label: 'Dividir a la Derecha', command: 'pane:split-right-and-copy-active-item' }
           { type: 'separator' }
-          { label: 'Focus Next Pane', command: 'window:focus-next-pane' }
-          { label: 'Focus Previous Pane', command: 'window:focus-previous-pane' }
+          { label: 'Enfocar Siguiente Panel', command: 'window:focus-next-pane' }
+          { label: 'Enfocar Panel Anterior', command: 'window:focus-previous-pane' }
           { type: 'separator' }
           { label: 'Focus Pane Above', command: 'window:focus-pane-above' }
           { label: 'Focus Pane Below', command: 'window:focus-pane-below' }
           { label: 'Focus Pane On Left', command: 'window:focus-pane-on-left' }
           { label: 'Focus Pane On Right', command: 'window:focus-pane-on-right' }
           { type: 'separator' }
-          { label: 'Close Pane', command: 'pane:close' }
+          { label: 'Cerrar Panel', command: 'pane:close' }
         ]
       }
       {
-        label: 'Developer'
+        label: 'Desarrollador'
         submenu: [
-          { label: 'Open In &Dev Mode…', command: 'application:open-dev' }
-          { label: '&Reload Window', command: 'window:reload' }
-          { label: 'Run Package &Specs', command: 'window:run-package-specs' }
+          { label: 'Abrir En Modo Dev…', command: 'application:open-dev' }
+          { label: '&Recargar Ventana', command: 'window:reload' }
+          { label: 'Ejecutar Especificaciones del Paquete', command: 'window:run-package-specs' }
           { label: 'Run &Benchmarks', command: 'window:run-benchmarks' }
-          { label: 'Toggle Developer &Tools', command: 'window:toggle-dev-tools' }
+          { label: 'Herramientas de Desarrollo', command: 'window:toggle-dev-tools' }
         ]
       }
       { type: 'separator' }
-      { label: '&Increase Font Size', command: 'window:increase-font-size' }
-      { label: '&Decrease Font Size', command: 'window:decrease-font-size' }
-      { label: 'Re&set Font Size', command: 'window:reset-font-size' }
+      { label: '&Aumentar tamaño de fuente', command: 'window:increase-font-size' }
+      { label: '&Disminuir tamaño de fuente', command: 'window:decrease-font-size' }
+      { label: 'Restablecer tamaño de fuente', command: 'window:reset-font-size' }
       { type: 'separator' }
-      { label: 'Toggle Soft &Wrap', command: 'editor:toggle-soft-wrap' }
+      { label: 'Alternar soft Wrap', command: 'editor:toggle-soft-wrap' }
     ]
   }
 
   {
     label: '&Selection'
     submenu: [
-      { label: 'Add Selection &Above', command: 'editor:add-selection-above' }
-      { label: 'Add Selection &Below', command: 'editor:add-selection-below' }
+      { label: 'Agregar selección Arriba', command: 'editor:add-selection-above' }
+      { label: 'Agregar selección Abajo', command: 'editor:add-selection-below' }
       { label: 'S&plit into Lines', command: 'editor:split-selections-into-lines'}
-      { label: 'Single Selection', command: 'editor:consolidate-selections'}
+      { label: 'Selección Individual', command: 'editor:consolidate-selections'}
       { type: 'separator' }
-      { label: 'Select to &Top', command: 'core:select-to-top' }
-      { label: 'Select to Botto&m', command: 'core:select-to-bottom' }
+      { label: 'Seleccionar para Arriba', command: 'core:select-to-top' }
+      { label: 'Seleccionar hacia abajo', command: 'core:select-to-bottom' }
       { type: 'separator' }
-      { label: 'Select &Line', command: 'editor:select-line' }
-      { label: 'Select &Word', command: 'editor:select-word' }
-      { label: 'Select to Beginning of W&ord', command: 'editor:select-to-beginning-of-word' }
-      { label: 'Select to Beginning of L&ine', command: 'editor:select-to-beginning-of-line' }
-      { label: 'Select to First &Character of Line', command: 'editor:select-to-first-character-of-line' }
-      { label: 'Select to End of Wor&d', command: 'editor:select-to-end-of-word' }
-      { label: 'Select to End of Lin&e', command: 'editor:select-to-end-of-line' }
+      { label: 'Seleccionar Línea', command: 'editor:select-line' }
+      { label: 'Seleccionar Palabra', command: 'editor:select-word' }
+      { label: 'Seleccionar al comienzo de la Palabra', command: 'editor:select-to-beginning-of-word' }
+      { label: 'Seleccionar comienzo de la Línea', command: 'editor:select-to-beginning-of-line' }
+      { label: 'Seleccionar primer carácter de la Línea', command: 'editor:select-to-first-character-of-line' }
+      { label: 'Seleccionar hasta el final de la Palabra', command: 'editor:select-to-end-of-word' }
+      { label: 'Seleccionar hasta el final de la Línea', command: 'editor:select-to-end-of-line' }
     ]
   }
 
@@ -185,18 +185,18 @@
   {
     label: '&Help'
     submenu: [
-      { label: 'View &Terms of Use', command: 'application:open-terms-of-use' }
-      { label: 'View &License', command: 'application:open-license' }
+      { label: 'Ver Terminos de Uso', command: 'application:open-terms-of-use' }
+      { label: 'Ver Licencia', command: 'application:open-license' }
       { label: "VERSION", enabled: false }
       { type: 'separator' }
-      { label: '&Documentation', command: 'application:open-documentation' }
-      { label: 'Frequently Asked Questions', command: 'application:open-faq' }
+      { label: '&Documentacion', command: 'application:open-documentation' }
+      { label: 'Preguntas Frecuentes', command: 'application:open-faq' }
       { type: 'separator' }
-      { label: 'Community Discussions', command: 'application:open-discussions' }
-      { label: 'Report Issue', command: 'application:report-issue' }
-      { label: 'Search Issues', command: 'application:search-issues' }
+      { label: 'Discusiones de la Comunidad', command: 'application:open-discussions' }
+      { label: 'Informe de Problemas', command: 'application:report-issue' }
+      { label: 'Buscar Problema', command: 'application:search-issues' }
       { type: 'separator' }
-      { label: 'About Atom', command: 'application:about' }
+      { label: 'Acerca de Atom', command: 'application:about' }
       { type: 'separator' }
     ]
   }
@@ -204,28 +204,28 @@
 
 'context-menu':
   'atom-text-editor, .overlayer': [
-    {label: 'Undo', command: 'core:undo'}
-    {label: 'Redo', command: 'core:redo'}
+    {label: 'Deshacer', command: 'core:undo'}
+    {label: 'Rehacer', command: 'core:redo'}
     {type: 'separator'}
-    {label: 'Cut', command: 'core:cut'}
-    {label: 'Copy', command: 'core:copy'}
-    {label: 'Paste', command: 'core:paste'}
-    {label: 'Delete', command: 'core:delete'}
-    {label: 'Select All', command: 'core:select-all'}
+    {label: 'Cortar', command: 'core:cut'}
+    {label: 'Copiar', command: 'core:copy'}
+    {label: 'Pegar', command: 'core:paste'}
+    {label: 'Borrar', command: 'core:delete'}
+    {label: 'Seleccionar Todo', command: 'core:select-all'}
     {type: 'separator'}
-    {label: 'Split Up', command: 'pane:split-up-and-copy-active-item'}
-    {label: 'Split Down', command: 'pane:split-down-and-copy-active-item'}
-    {label: 'Split Left', command: 'pane:split-left-and-copy-active-item'}
-    {label: 'Split Right', command: 'pane:split-right-and-copy-active-item'}
-    {label: 'Close Pane', command: 'pane:close'}
+    {label: 'Dividir Panel', command: 'pane:split-up-and-copy-active-item'}
+    {label: 'Dividir Panel Hacia Abajo', command: 'pane:split-down-and-copy-active-item'}
+    {label: 'Dividir Panel a la Izquierda', command: 'pane:split-left-and-copy-active-item'}
+    {label: 'Dividir Panel a la Derecha', command: 'pane:split-right-and-copy-active-item'}
+    {label: 'Cerrar Panel', command: 'pane:close'}
     {type: 'separator'}
   ]
   'atom-pane': [
     {type: 'separator'}
-    {label: 'Split Up', command: 'pane:split-up-and-copy-active-item'}
-    {label: 'Split Down', command: 'pane:split-down-and-copy-active-item'}
-    {label: 'Split Left', command: 'pane:split-left-and-copy-active-item'}
-    {label: 'Split Right', command: 'pane:split-right-and-copy-active-item'}
-    {label: 'Close Pane', command: 'pane:close'}
+    {label: 'Dividir Panel', command: 'pane:split-up-and-copy-active-item'}
+    {label: 'Dividir Panel Hacia Abajo', command: 'pane:split-down-and-copy-active-item'}
+    {label: 'Dividir Panel a la Izquierda', command: 'pane:split-left-and-copy-active-item'}
+    {label: 'Dividir Panel a la Derecha', command: 'pane:split-right-and-copy-active-item'}
+    {label: 'Cerrar Panel', command: 'pane:close'}
     {type: 'separator'}
-]
+  ]
