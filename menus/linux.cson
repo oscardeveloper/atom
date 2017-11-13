@@ -1,6 +1,6 @@
 'menu': [
   {
-    label: '&File'
+    label: '&Archivo'
     submenu: [
       { label: 'Nueva &Ventana', command: 'application:new-window' }
       { label: '&Nuevo Archivo', command: 'application:new-file' }
@@ -29,7 +29,7 @@
   }
 
   {
-    label: '&Edit'
+    label: '&Editar'
     submenu: [
       { label: '&Deshacer', command: 'core:undo' }
       { label: '&Rehacer', command: 'core:redo' }
@@ -57,7 +57,7 @@
         ]
       }
       {
-        label: 'Columns',
+        label: 'Columnas',
         submenu: [
           { label: 'Mover Selección A La Izquierda', command: 'editor:move-selection-left' }
           { label: 'Mover Selección A La Derecha', command: 'editor:move-selection-right' }
@@ -109,7 +109,7 @@
   }
 
   {
-    label: '&View'
+    label: '&Ver'
     submenu: [
       { label: 'Pantalla Completa', command: 'window:toggle-full-screen' }
       { label: 'Toggle Menu Bar', command: 'window:toggle-menu-bar' }
@@ -152,7 +152,7 @@
   }
 
   {
-    label: '&Selection'
+    label: '&Seleccion'
     submenu: [
       { label: 'Agregar selección Arriba', command: 'editor:add-selection-above' }
       { label: 'Agregar selección Abajo', command: 'editor:add-selection-below' }
@@ -173,17 +173,17 @@
   }
 
   {
-    label: 'F&ind'
+    label: 'Encontrar'
     submenu: []
   }
 
   {
-    label: '&Packages'
+    label: '&Paquetes'
     submenu: []
   }
 
   {
-    label: '&Help'
+    label: '&Ayuda'
     submenu: [
       { label: 'Ver Terminos de Uso', command: 'application:open-terms-of-use' }
       { label: 'Ver Licencia', command: 'application:open-license' }
