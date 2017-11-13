@@ -5,7 +5,7 @@ Thumbs.db
 .project
 .svn
 .nvm-version
-node_modules
+/node_modules
 npm-debug.log
 debug.log
 /tags
