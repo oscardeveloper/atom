@@ -1,6 +1,6 @@
 'menu': [
   {
-    label: '&Archivo'
+    label: 'Archivo'
     submenu: [
       { label: 'Nueva &Ventana', command: 'application:new-window' }
       { label: '&Nuevo Archivo', command: 'application:new-file' }
