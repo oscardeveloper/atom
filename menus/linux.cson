@@ -8,7 +8,7 @@
       { label: 'Abrir Carpeta…', command: 'application:open-folder' }
       { label: 'Agregar Carpeta De Poroyecto…', command: 'application:add-project-folder' }
       {
-        label: 'Reopen Project',
+        label: 'Reabrir Poroyecto',
         submenu: [
           { label: 'Limpiar Historial De Poroyecto', command: 'application:clear-project-history' }
           { type: 'separator' }
